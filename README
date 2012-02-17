@@ -1,7 +1,10 @@
-This will install skype, flash and AAC codecs on Mandriva Linux 2011.
-This is intended as an C programming exercice, despite the base function
-seems to work, i don't recomend you to use it. This will someday become 
-a real and usefull code, but it's not the current state.
+This is a console version of the Mandriva stuff installer,
+with it you can install skype, AAC codecs and flash pĺugin.
+It is 100% working.
 
-Currently im trying to understand how GTK works, seems some kind of
-complicated, at last for me.
+Clone it from git and run 'make' to build and generate the
+binary code called get_stuff. 
+
+Than just run it ./get_stuff
+It will show you a simple interface and will do nothing 
+without your persmission, it asks for each action.

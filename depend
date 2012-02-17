@@ -1,0 +1,5 @@
+skype.o: skype.c common.h
+util.o: util.c common.h
+main.o: main.c common.h
+flash.o: flash.c common.h
+plugin.o: plugin.c common.h
