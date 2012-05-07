@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <unistd.h>
-#include <gtk/gtk.h>
+//#include <gtk/gtk.h>
 #include "common.h"
 
 #define VERSION "2.2.0.35"
@@ -35,7 +35,7 @@ int install_skype()
 		if (arch()){// if arch is 64bit
 			printf ("Please, enable the 32bits medias, i need some 32bit libs\n");
 			system ("edit-urpm-sources.pl --expert"); //tel user to enable 32bit medias
-			system ("urpmi libxscrnsaver1 libxv1 libxrender1 libxrandr2 libfreetype6 libfontconfig1 libglib2.0_0  libgthread2.0_0 libsm6 libxi6");
+			system ("urpmi libxscrnsaver1 libxv1 libxrender1 libxrandr2 libfreetype6 libfontconfig1 libglib2.0_0 libglib2.0_0  libsm6 libxi6");
 		}
 
 		
